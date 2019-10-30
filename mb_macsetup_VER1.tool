@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## MAC SET-UP
 ## 
 ## this script contains a list of usefull app to set-up automatically 
