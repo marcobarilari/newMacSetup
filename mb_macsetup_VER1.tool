@@ -2,7 +2,7 @@
 
 ## MAC SET-UP
 ## 
-## this script contains a list of usefull app to set-up automatically 
+## 
 ## a new or semi-new mac.
 ## 
 ## adjusted by MB 2019-01-20 from the 'Fink' script instalation 
