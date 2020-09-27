@@ -16,6 +16,8 @@ running `BarcoMacSetup.tool` on the terminal it will install:
 
 - [ ] homebrew  
 
+https://thehomeofthefuture.com/how-to/use-homebrew-for-macos/
+
 ## to add with manual installation
 
 - [ ] Matlab
