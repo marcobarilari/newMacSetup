@@ -1,6 +1,14 @@
 # MacSetup
 Collection of info, app and script to automate the setup of my Macintosh in a new or semi-new machine
 
+## Example
+
+https://github.com/danvega/new-macbook-setup
+
+https://github.com/nicolashery/mac-dev-setup
+
+https://github.com/thoughtbot/laptop
+
 ## Manual installation
 
 - [ ]
