@@ -1,11 +1,16 @@
 # MacSetup
 Collection of info, app and script to automate the setup of my Macintosh in a new or semi-new machine
 
-## Step 1 - download the choosen macOS
+## Step 1 - Clean install of the chosen MacOs
+
+### Download the macOs
 
 [Yosemite](http://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg) downloader through Safari
 
-## Step 2 - prepare the bootable installer usb
+### Prepare the bootable USB
+
+see [here](https://bootableinstaller.com/macos/#macos)
+
 
 ## Manual installation
 
