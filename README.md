@@ -1,16 +1,35 @@
 # MacSetup
-Collection of info, app and script to automate the setup of my Macintosh in a new or semi-new machine
+Collection of info, app and script to automate the setup of my mac pc in a new or renewed machine
 
 ## Step 1 - Clean install of the chosen MacOs
 
-### Download the macOs
-
-[Yosemite](http://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg) downloader through Safari
-
-### Prepare the bootable USB
+### Download and prepare for new installation
 
 see [here](https://bootableinstaller.com/macos/#macos)
 
+## Step 2 - Prepare the massive set up with basic tools
+
+### Homebrew
+
+[homebrew](https://brew.sh/) (will install the `Command Line Tools`)
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+mac settings
+
+git and clone this repo
+
+
+
+pip3
+
+python3
+
+
+
+########################### OLD ###########################
 
 ## Manual installation
 
