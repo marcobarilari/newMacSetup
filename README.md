@@ -9,6 +9,12 @@ see [here](https://bootableinstaller.com/macos/#macos)
 
 ## Step 2 - Prepare the massive set up with basic tools
 
+### XCode
+
+It is necessary for eg octave, probably not possible to install it via the terminal (maybe with `mas` but it itself needs it so... but see [here](https://apple.stackexchange.com/questions/75684/installing-xcode-via-command-line))
+
+If you need an older version which is not the one on the mac app store (eg Sierra needs 9.2), check [here](https://developer.apple.com/download/more/)
+
 ### Homebrew
 
 [homebrew](https://brew.sh/) (will install the `Command Line Tools`)
