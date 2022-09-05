@@ -7,7 +7,7 @@ Collection of info, app and script to automate the setup of my mac pc in a new o
 
 see [here](https://bootableinstaller.com/macos/#macos)
 
-## Step 2 - Prepare the massive set up with basic tools
+## Step 2 - Prepare for the automatic set up with basic tools 
 
 ### XCode
 
