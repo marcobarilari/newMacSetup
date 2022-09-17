@@ -7,22 +7,23 @@
     - [ ] brain software tools in `/Users/barilari/data/tools`
 
 - [ ] github
-    - make sure any repo's remote is updated
+    - make sure any repo's remote is updated (optional, we can copy the repos from the old to new computer)
 
 - [ ] copy software libraries on dropbox/HD
     - [ ] itunes in `/Users/barilari/Music/iTunes`
     - [ ] imovie in `/Users/barilari/Movies` 
     - [ ] photos in `/Users/barilari/Pictures/Photos Library.photoslibrary`
-    - [ ] onetab (export from chrome)
     - [ ] Mendeley in  `/Users/barilari/Documents/Mendeley Desktop`
     - [ ] Zotero in `/Users/barilari/Zotero`
     - [ ] Github folder in `/Users/barilari/GitHub`
+    - [ ] Downloads folder in `/Users/barilari/Downloads`
 
 - [ ] mac setup
     - matlab start up in `/Users/barilari/Documents/MATLAB/startup.m`
     - bashprofile in `/Users/barilari/.bash_profile`
     - dtld source 
     - mouse set up 
+    - [ ] onetab (export from chrome in a `txt` file)
 
 - [ ] iPhone/iPad last backup
 
