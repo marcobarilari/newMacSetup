@@ -9,19 +9,20 @@
 - [ ] github
     - make sure any repo's remote is updated
 
-- [ ] copy software libraries on dropbox
+- [ ] copy software libraries on dropbox/HD
     - [ ] itunes in `/Users/barilari/Music/iTunes`
     - [ ] imovie in `/Users/barilari/Movies` 
     - [ ] photos in `/Users/barilari/Pictures/Photos Library.photoslibrary`
     - [ ] onetab (export from chrome)
     - [ ] Mendeley in  `/Users/barilari/Documents/Mendeley Desktop`
     - [ ] Zotero in `/Users/barilari/Zotero`
+    - [ ] Github folder in `/Users/barilari/GitHub`
 
 - [ ] mac setup
     - matlab start up in `/Users/barilari/Documents/MATLAB/startup.m`
-    - .bash profile in `/Users/barilari/.bash_profile`
-    - dtld source
-    - mouse set up
+    - bashprofile in `/Users/barilari/.bash_profile`
+    - dtld source 
+    - mouse set up 
 
 - [ ] iPhone/iPad last backup
 
