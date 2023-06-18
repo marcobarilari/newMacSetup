@@ -17,13 +17,16 @@
     - [ ] Zotero in `/Users/barilari/Zotero`
     - [ ] Github folder in `/Users/barilari/GitHub`
     - [ ] Downloads folder in `/Users/barilari/Downloads`
+    - [ ] Desktop
+    - [ ] OneTab
 
 - [ ] mac setup
-    - matlab start up in `/Users/barilari/Documents/MATLAB/startup.m`
-    - bashprofile in `/Users/barilari/.bash_profile`
-    - dtld source 
-    - mouse set up 
+    - [ ] matlab start up in `/Users/barilari/Documents/MATLAB/startup.m`
+    - [ ] bashprofile in `/Users/barilari/.bash_profile`
+    - [ ] dtld source 
+    - [ ] mouse set up 
     - [ ] onetab (export from chrome in a `txt` file)
+    - [ ] ssh config file
 
 - [ ] iPhone/iPad last backup
 
