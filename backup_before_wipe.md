@@ -3,7 +3,7 @@
 - [ ] screenshots 
     - [ ] app view (F4 key)
     - [ ] github folder in `/Users/barilari/GitHub`
-    - [ ] vscode extension
+    - [ ] vscode extensions
     - [ ] brain software tools in `/Users/barilari/data/tools`
 
 - [ ] github
@@ -27,7 +27,8 @@
     - [ ] mouse set up 
     - [ ] onetab (export from chrome in a `txt` file)
     - [ ] ssh config file
-
+    - [ ] vim config
+ 
 - [ ] iPhone/iPad last backup
 
 - [ ] Time Machine last back up on a HD that will keep it for a long time in case something is lost with the above manual back-up
