@@ -1,3 +1,8 @@
+## ERASE
+
+https://support.apple.com/guide/mac-help/erase-your-mac-mchl7676b710/13.0/mac/13.0
+
+
 ## BACKUP from `HD_HOME`
 - startup matlab 
 - mendeley
@@ -8,6 +13,8 @@
 - logitech mouse
 - dock composition
 - finder tricks (3 fingers, path at bottom, drag and drop)
+	- 3 finger https://support.apple.com/en-us/HT204609
+	- path at bottom https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window. 
 - github folders
 
 ## P1
@@ -50,6 +57,12 @@ brew install --cask xquartz
 ```
 
 :bangbang: better to `sudo reboot` now :bangbang:
+
+- VIM
+
+```
+brew install vim
+```
 
 - VScode (check set up below)
 ```bash
@@ -112,75 +125,81 @@ brew install --cask gitkraken
 brew install --cask discord
 ```
 
-- onedrive
+- onedrive brew install --cask onedrive
 
-- googledrive
+- googledrive brew install --cask google-drive
 
-- openVPN Connect
+- openVPN Connect brew install --cask openvpn-connect
 
-- MacsFanControl
+- MacsFanControl brew install --cask macs-fan-control
 
-- copyclip
+- copyclip https://apps.apple.com/it/app/copyclip-clipboard-history/id595191960?l=en&mt=12
 
-- docker
-- virtual box
-- anaconda
-- audacity
-- logioptions
-- itksnap
-- freesurfer
-- fsl
-- ants
+- monitor display lite https://apps.apple.com/it/app/monitorcontrol-lite/id1595464182?l=en&mt=12
+
+- docker brew install docker
+- virtual box brew install --cask virtualbox
+- anaconda brew install --cask anaconda
+- audacity brew install --cask audacity
+- logi options https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip
+- itksnap http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc
+- freesurfer https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads
+  -  video tutorial https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall?action=AttachFile&do=view&target=installFS_demo.mp4
+- fsl https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
+- ants 
+  - precompiled https://github.com/stnava/ANTs/zipball/master
+  - to compile https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS
+- caffeine brew install --cask caffeine
+- magnet https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12
  
 ## P3
 
 - timerRH [appstore](https://apps.apple.com/it/app/timer-rh/id929960914?l=en&mt=12)
 
-- todoist
-- Microsoft NTFS Tuxera
-- pomodone
-- firefox
-- spotify
-- whatsapp
-- telegram
-- teams
-- 265 office
-- zoom
-- zotero
-- grammarly
-- googledrive
-- nordvpn
-- trashme
-- fig
-- latek
-- octave
-- psychopy
-- spyder
-- praat
-
-boinc manager
+- todoist brew install --cask todoist
+- Microsoft NTFS Tuxera brew install --cask tuxera-ntfs
+- pomodone brew install --cask pomodone
+- firefox brew install --cask firefox
+- spotify brew install --cask spotify
+- whatsapp brew install --cask whatsapp
+- telegram brew install --cask telegram
+- teams brew install --cask microsoft-teams
+- 365 office brew install --cask microsoft-office
+- zoom brew install --cask zoom
+- zotero brew install --cask zotero
+- grammarly brew install --cask grammarly
+- nordvpn brew install --cask nordvpn
+- trashme (from ...)
+- fig brew install --cask fig
+- latek brew install --cask mactex
+- octave brew install octave
+- psychopy brew install --cask psychopy
+- spyder brew install --cask spyder
+- ibettercharge brew install --cask ibettercharge
+- 
 
 ## P4
 
-- obsedian
-
-photoshop
-illustrator
-gimp
-mattermost
-studio lego
-inkscape
-mendely
-bear
-slack
-selfcontrol
-folx go +
-torbrowser
-ink2go
-element
-npm
-mricron
-jasp
+- obsedian brew install --cask obsidian
+- boinc manager brew install --cask boinc
+- photoshop (from ...)
+- illustrator (from ...)
+- gimp brew install --cask gimp
+- mattermost brew install --cask mattermost
+- studio lego brew install --cask bricklink-studio
+- inkscape brew install --cask inkscape
+- mendely brew install --cask mendeley
+- bear https://apps.apple.com/it/app/bear-markdown-notes/id1091189122?l=en&mt=12
+- slack brew install --cask slack
+- selfcontrol brew install --cask selfcontrol
+- folx go + brew install --cask folx
+- torbrowser brew install --cask tor-browser
+- ink2go (from ...)
+- element brew install --cask element
+- mricron https://github.com/neurolabusc/MRIcron
+- jasp brew install --cask jasp
+- freespace tab https://macdownload.informer.com/freespace-tab/
+- praat brew install --cask praat
 
 ## In-App setup
 
