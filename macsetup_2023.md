@@ -1,10 +1,15 @@
+# Set up oif a new mac step by step
+
 ## ERASE
 
-https://support.apple.com/guide/mac-help/erase-your-mac-mchl7676b710/13.0/mac/13.0
+check this:
 
-
+- [What to do before you sell, give away or trade in your Mac](https://support.apple.com/en-au/HT201065)
+- [Erase your Mac and reset it to factory settings](9https://support.apple.com/en-us/HT212749)
+- [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
 ## BACKUP from `HD_HOME`
-- startup matlab 
+
+- startup matlab
 - mendeley
 - zotero
 - photos
@@ -13,8 +18,8 @@ https://support.apple.com/guide/mac-help/erase-your-mac-mchl7676b710/13.0/mac/13
 - logitech mouse
 - dock composition
 - finder tricks (3 fingers, path at bottom, drag and drop)
-	- 3 finger https://support.apple.com/en-us/HT204609
-	- path at bottom https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window. 
+  - 3 finger <https://support.apple.com/en-us/HT204609>
+  - path at bottom <https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window>.
 - github folders
 
 ## P1
@@ -31,7 +36,7 @@ https://support.apple.com/guide/mac-help/erase-your-mac-mchl7676b710/13.0/mac/13
 brew install --cask google-chrome
 ```
 
-- git 
+- git
 
 ```bash
 git --version
@@ -40,6 +45,7 @@ brew install git
 ```
 
 - get this repo locally ;)
+
 ```bash
 mkdir ~/GitHub && cd ~/GitHub && git clone https://github.com/marcobarilari/newMacSetup.git
 ```
@@ -60,11 +66,12 @@ brew install --cask xquartz
 
 - VIM
 
-```
+```bash
 brew install vim
 ```
 
 - VScode (check set up below)
+
 ```bash
 brew install --cask visual-studio-code
 ```
@@ -75,7 +82,7 @@ brew install --cask visual-studio-code
 brew install --cask dropbox
 ```
 
-- python 
+- python
 
 consider [to set up a virtual env for python3](https://matt-wxw.medium.com/setup-python-3-on-macos-cf48f30bec3b#:~:text=The%20default%20Python%20version%20on,is%20also%20on%20the%20system.&text=However%2C%20it%20is%20not%20recommended.)
 
@@ -99,6 +106,7 @@ brew install datalad
   - via afni... at the moment the latest version is 4.x.x but afni seems to prefer `R-3.6.3`
 
   - OR
+
 ```bash
 brew install r
 ```
@@ -113,7 +121,7 @@ brew install --cask rstudio
 
 - matlab (from ...)
 
-- git kraken 
+- git kraken
 
 ```bash
 brew install --cask gitkraken
@@ -133,25 +141,26 @@ brew install --cask discord
 
 - MacsFanControl brew install --cask macs-fan-control
 
-- copyclip https://apps.apple.com/it/app/copyclip-clipboard-history/id595191960?l=en&mt=12
+- copyclip <https://apps.apple.com/it/app/copyclip-clipboard-history/id595191960?l=en&mt=12>
 
-- monitor display lite https://apps.apple.com/it/app/monitorcontrol-lite/id1595464182?l=en&mt=12
+- monitor display lite <https://apps.apple.com/it/app/monitorcontrol-lite/id1595464182?l=en&mt=12>
 
 - docker brew install docker
 - virtual box brew install --cask virtualbox
 - anaconda brew install --cask anaconda
 - audacity brew install --cask audacity
-- logi options https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip
-- itksnap http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc
-- freesurfer https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads
-  -  video tutorial https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall?action=AttachFile&do=view&target=installFS_demo.mp4
-- fsl https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
-- ants 
-  - precompiled https://github.com/stnava/ANTs/zipball/master
-  - to compile https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS
+- logi options <https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip>
+- itksnap <http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc>
+- freesurfer <https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads>
+  - video tutorial <https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall?action=AttachFile&do=view&target=installFS_demo.mp4>
+- fsl <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
+- laynii <https://github.com/layerfMRI/LAYNII>
+- ants
+  - precompiled <https://github.com/stnava/ANTs/zipball/master>
+  - to compile <https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS>
 - caffeine brew install --cask caffeine
-- magnet https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12
- 
+- magnet <https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12>
+
 ## P3
 
 - timerRH [appstore](https://apps.apple.com/it/app/timer-rh/id929960914?l=en&mt=12)
@@ -176,7 +185,7 @@ brew install --cask discord
 - psychopy brew install --cask psychopy
 - spyder brew install --cask spyder
 - ibettercharge brew install --cask ibettercharge
-- 
+- printers at uclouvain
 
 ## P4
 
@@ -189,16 +198,16 @@ brew install --cask discord
 - studio lego brew install --cask bricklink-studio
 - inkscape brew install --cask inkscape
 - mendely brew install --cask mendeley
-- bear https://apps.apple.com/it/app/bear-markdown-notes/id1091189122?l=en&mt=12
+- bear <https://apps.apple.com/it/app/bear-markdown-notes/id1091189122?l=en&mt=12>
 - slack brew install --cask slack
 - selfcontrol brew install --cask selfcontrol
 - folx go + brew install --cask folx
 - torbrowser brew install --cask tor-browser
 - ink2go (from ...)
 - element brew install --cask element
-- mricron https://github.com/neurolabusc/MRIcron
+- mricron <https://github.com/neurolabusc/MRIcron>
 - jasp brew install --cask jasp
-- freespace tab https://macdownload.informer.com/freespace-tab/
+- freespace tab <https://macdownload.informer.com/freespace-tab/>
 - praat brew install --cask praat
 
 ## In-App setup
@@ -208,6 +217,7 @@ brew install --cask discord
 #### Extensions
 
 ### matlab
+
 bspmview
 cosmomvpa
 spm12
@@ -215,4 +225,3 @@ fraridge
 libsvm_325
 PTB
 tapas
-
