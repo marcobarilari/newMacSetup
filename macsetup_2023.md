@@ -5,7 +5,7 @@
 check this:
 
 - [What to do before you sell, give away or trade in your Mac](https://support.apple.com/en-au/HT201065)
-- [Erase your Mac and reset it to factory settings](9https://support.apple.com/en-us/HT212749)
+- [Erase your Mac and reset it to factory settings](https://support.apple.com/en-us/HT212749)
 - [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
 ## BACKUP from `HD_HOME`
 
