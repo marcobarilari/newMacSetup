@@ -19,6 +19,7 @@
   - [x] Desktop
   - [x] OneTab
   - [x] data folder in `Users/barilari/data`
+  - [x] stickers
 
 - [x]] mac setup
   - [x] matlab start up in `/Users/barilari/Documents/MATLAB/startup.m`
