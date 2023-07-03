@@ -7,6 +7,7 @@ check this:
 - [What to do before you sell, give away or trade in your Mac](https://support.apple.com/en-au/HT201065)
 - [Erase your Mac and reset it to factory settings](https://support.apple.com/en-us/HT212749)
 - [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
+
 ## BACKUP from `HD_HOME`
 
 - startup matlab
@@ -70,6 +71,12 @@ brew install --cask xquartz
 
 :bangbang: better to `sudo reboot` now :bangbang:
 
+- oh-my-zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 - VIM
 
 ```bash
@@ -105,6 +112,157 @@ brew install datalad
 
 ## P2
 
+- Xcode compiler 
+
+https://apps.apple.com/it/app/xcode/id497799835?l=en&mt=12
+
+- git kraken
+
+```bash
+brew install --cask gitkraken
+```
+
+- discord
+
+```bash
+brew install --cask discord
+```
+
+- googledrive
+
+```bash  
+brew install --cask google-drive
+```
+
+- openVPN Connect
+
+```bash  
+brew install --cask openvpn-connect
+```
+
+- MacsFanControl
+
+```bash
+brew install --cask macs-fan-control
+```
+
+- copyclip
+  
+https://apps.apple.com/it/app/copyclip-clipboard-history/id595191960?l=en&mt=12
+
+- monitor display lite
+  
+<https://apps.apple.com/it/app/monitorcontrol-lite/id1595464182?l=en&mt=12>
+
+- docker 
+
+```bash 
+brew install --cask docker
+```
+
+- anaconda 
+
+```bash
+brew install --cask anaconda
+```
+
+- audacity 
+
+```bash
+brew install --cask audacity
+```
+
+- caffeine (maybe not necessary)
+
+```bash
+brew install --cask caffeine
+```
+
+- magnet 
+
+https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12
+
+
+- logi options 
+
+https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip
+
+- todoist 
+
+```bash
+brew install --cask todoist
+```
+
+- pomodone 
+
+```bash
+brew install --cask pomodone
+```
+
+- spotify 
+
+```bash
+brew install --cask spotify
+```
+
+- teams 
+
+```bash
+brew install --cask microsoft-teams
+```
+
+- 365 office (installs: Excel, Word, Powerpoint, OneNote, OneDrive)
+
+```bash
+brew install --cask microsoft-office
+```
+
+
+- zoom 
+
+```bash
+brew install --cask zoom
+```
+
+- zotero 
+
+```bash
+brew install --cask zotero
+```
+
+- grammarly 
+
+```bash
+brew install --cask grammarly
+```
+
+- nordvpn 
+
+```bash 
+brew install --cask nordvpn
+```
+
+- timerRH 
+
+[appstore](https://apps.apple.com/it/app/timer-rh/id929960914?l=en&mt=12)
+
+## P3
+
+- itksnap <http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc>
+  
+- freesurfer <https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads>
+  - video tutorial <https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall?action=AttachFile&do=view&target=installFS_demo.mp4>
+
+- fsl 
+
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
+
+- laynii <https://github.com/layerfMRI/LAYNII>
+- ants
+  - precompiled <https://github.com/stnava/ANTs/zipball/master>
+  - to compile <https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS>
+
+
 - afni [installation guide](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_macOS_12_Intel.html)
   - this also installs R
 
@@ -127,63 +285,11 @@ brew install --cask rstudio
 
 - matlab (from ...)
 
-- git kraken
-
-```bash
-brew install --cask gitkraken
-```
-
-- discord
-
-```bash
-brew install --cask discord
-```
-
-- onedrive brew install --cask onedrive
-
-- googledrive brew install --cask google-drive
-
-- openVPN Connect brew install --cask openvpn-connect
-
-- MacsFanControl brew install --cask macs-fan-control
-
-- copyclip <https://apps.apple.com/it/app/copyclip-clipboard-history/id595191960?l=en&mt=12>
-
-- monitor display lite <https://apps.apple.com/it/app/monitorcontrol-lite/id1595464182?l=en&mt=12>
-
-- docker brew install docker
-- virtual box brew install --cask virtualbox
-- anaconda brew install --cask anaconda
-- audacity brew install --cask audacity
-- logi options <https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip>
-- itksnap <http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc>
-- freesurfer <https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads>
-  - video tutorial <https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall?action=AttachFile&do=view&target=installFS_demo.mp4>
-- fsl <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
-- laynii <https://github.com/layerfMRI/LAYNII>
-- ants
-  - precompiled <https://github.com/stnava/ANTs/zipball/master>
-  - to compile <https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS>
-- caffeine brew install --cask caffeine
-- magnet <https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12>
-
-## P3
-
-- timerRH [appstore](https://apps.apple.com/it/app/timer-rh/id929960914?l=en&mt=12)
-
-- todoist brew install --cask todoist
 - Microsoft NTFS Tuxera brew install --cask tuxera-ntfs
-- pomodone brew install --cask pomodone
 - firefox brew install --cask firefox
-- spotify brew install --cask spotify
 - whatsapp brew install --cask whatsapp
 - telegram brew install --cask telegram
-- teams brew install --cask microsoft-teams
-- 365 office brew install --cask microsoft-office
-- zoom brew install --cask zoom
-- zotero brew install --cask zotero
-- grammarly brew install --cask grammarly
-- nordvpn brew install --cask nordvpn
+
 - trashme (from ...)
 - fig brew install --cask fig
 - latek brew install --cask mactex
@@ -192,17 +298,35 @@ brew install --cask discord
 - spyder brew install --cask spyder
 - ibettercharge brew install --cask ibettercharge
 - printers at uclouvain
+- visrtual box
+
+```bash
+brew install --cask virtualbox
+```
 
 ## P4
+
+- inkscape 
+
+```bash
+brew install --cask inkscape
+```
+
+- gimp 
+
+```bash
+brew install --cask gimp
+```
 
 - obsedian brew install --cask obsidian
 - boinc manager brew install --cask boinc
 - photoshop (from ...)
 - illustrator (from ...)
-- gimp brew install --cask gimp
 - mattermost brew install --cask mattermost
 - studio lego brew install --cask bricklink-studio
-- inkscape brew install --cask inkscape
+
+
+
 - mendely brew install --cask mendeley
 - bear <https://apps.apple.com/it/app/bear-markdown-notes/id1091189122?l=en&mt=12>
 - slack brew install --cask slack
