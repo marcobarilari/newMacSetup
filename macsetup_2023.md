@@ -51,6 +51,10 @@ git --version
 brew install git
 ```
 
+set up git/github
+
+
+
 - get this repo locally ;)
 
 ```bash
@@ -88,6 +92,8 @@ brew install vim
 ```bash
 brew install --cask visual-studio-code
 ```
+
+[Visual Studio Code Shortcut Run Command in Terminal](https://stackoverflow.com/questions/49085609/visual-studio-code-shortcut-run-command-in-terminal)
 
 - dropbox
 
@@ -285,26 +291,41 @@ brew install --cask rstudio
 
 - matlab (from ...)
 
-- Microsoft NTFS Tuxera brew install --cask tuxera-ntfs
-- firefox brew install --cask firefox
-- whatsapp brew install --cask whatsapp
-- telegram brew install --cask telegram
-
-- trashme (from ...)
-- fig brew install --cask fig
-- latek brew install --cask mactex
-- octave brew install octave
-- psychopy brew install --cask psychopy
-- spyder brew install --cask spyder
-- ibettercharge brew install --cask ibettercharge
-- printers at uclouvain
-- visrtual box
+- Microsoft NTFS Tuxera 
 
 ```bash
-brew install --cask virtualbox
+brew install --cask tuxera-ntfs
 ```
 
-## P4
+- tor-browser
+
+```bash
+brew install --cask tor-browser
+```
+
+- firefox 
+
+```bash
+brew install --cask firefox
+```
+
+- whatsapp 
+
+```bash
+brew install --cask whatsapp
+```
+
+- telegram
+
+```bash
+brew install --cask telegram
+```
+
+- spyder 
+
+```bash
+brew install --cask spyder
+```
 
 - inkscape 
 
@@ -316,6 +337,48 @@ brew install --cask inkscape
 
 ```bash
 brew install --cask gimp
+```
+
+- fig 
+
+```bash
+brew install --cask fig
+```
+
+- trashme (from ...)
+
+- printers at uclouvain
+
+## P4
+
+ latek 
+
+```bash
+brew install --cask mactex
+```
+
+- octave 
+
+```bash
+brew install octave
+```
+
+- psychopy 
+
+```bash
+brew install --cask psychopy
+```
+
+- ibettercharge 
+
+```bash 
+brew install --cask ibettercharge
+```
+
+- visrtual box
+
+```bash
+brew install --cask virtualbox
 ```
 
 - obsedian brew install --cask obsidian
