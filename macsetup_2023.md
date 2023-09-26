@@ -37,6 +37,12 @@ check this:
 brew install htop
 ```
 
+- tree
+
+```
+brew install tree
+```
+
 - chrome
 
 ```bash
@@ -51,7 +57,7 @@ git --version
 brew install git
 ```
 
-set up git/github
+set up git/github (config + ssh)
 
 
 
@@ -264,12 +270,14 @@ brew install --cask nordvpn
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
 
 - laynii <https://github.com/layerfMRI/LAYNII>
+
 - ants
   - precompiled <https://github.com/stnava/ANTs/zipball/master>
   - to compile <https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS>
 
 
 - afni [installation guide](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_macOS_12_Intel.html)
+
   - this also installs R
 
 - R (if not installed by afni)
@@ -343,6 +351,12 @@ brew install --cask gimp
 
 ```bash
 brew install --cask fig
+```
+
+- vlc 
+
+```bash
+brew install --cask vlc
 ```
 
 - trashme (from ...)
