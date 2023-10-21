@@ -124,6 +124,10 @@ brew install datalad
 
 ## P2
 
+- FileZilla
+
+[link](https://filezilla-project.org/download.php?show_all=1)
+
 - Xcode compiler 
 
 https://apps.apple.com/it/app/xcode/id497799835?l=en&mt=12
