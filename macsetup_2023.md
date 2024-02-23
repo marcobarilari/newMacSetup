@@ -23,33 +23,33 @@ check this:
   - path at bottom <https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window>.
 - github folders
 
-## P1
+## Priority 1
 
-- homebrew
+### homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- htop
+### htop
 
 ```bash
 brew install htop
 ```
 
-- tree
+### tree
 
 ```
 brew install tree
 ```
 
-- chrome
+### chrome
 
 ```bash
 brew install --cask google-chrome
 ```
 
-- git
+### git
 
 ```bash
 git --version
@@ -61,19 +61,19 @@ set up git/github (config + ssh)
 
 
 
-- get this repo locally ;)
+### get this repo locally ;)
 
 ```bash
 mkdir ~/GitHub && cd ~/GitHub && git clone https://github.com/marcobarilari/newMacSetup.git
 ```
 
-- xcode
+### xcode
 
 ```bash
 xcode-select --install
 ```
 
-- xquartz
+### xquartz
 
 ```bash
 brew install --cask xquartz
@@ -81,33 +81,59 @@ brew install --cask xquartz
 
 :bangbang: better to `sudo reboot` now :bangbang:
 
-- oh-my-zsh
+### oh-my-zsh
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-- VIM
+### VIM
 
 ```bash
 brew install vim
 ```
 
-- VScode (check set up below)
+### VScode (check set up below)
 
 ```bash
 brew install --cask visual-studio-code
 ```
 
-[Visual Studio Code Shortcut Run Command in Terminal](https://stackoverflow.com/questions/49085609/visual-studio-code-shortcut-run-command-in-terminal)
+- Set the schortcut 'option' + 'cmd' + 'enter' to run the selected/line at cursos code in the terminal see [here](https://stackoverflow.com/questions/49085609/visual-studio-code-shortcut-run-command-in-terminal)
 
-- dropbox
+- Extension to install:
+  - Auto-Open Markdown Preview
+  - Color Highlight
+  - Excel Viewer
+  - Git Graph
+  - GitHub Copilot
+  - GitHub Copilot C
+  - Git Lens
+  - json
+  - Jupiter
+  - Markdown All in One
+  - MATLAB
+  - NeuroViewer
+  - Pretier - Code formatter
+  - Prettify JSON
+  - Pylance
+  - Python
+  - Python Debugger
+  - R
+  - R Markdown All in One
+  - Remote SSH
+  - Sublime VSCode Theme
+  - Power Mode
+  - Vim
+
+
+### dropbox
 
 ```bash
 brew install --cask dropbox
 ```
 
-- python
+### python
 
 consider [to set up a virtual env for python3](https://matt-wxw.medium.com/setup-python-3-on-macos-cf48f30bec3b#:~:text=The%20default%20Python%20version%20on,is%20also%20on%20the%20system.&text=However%2C%20it%20is%20not%20recommended.)
 
@@ -116,178 +142,187 @@ consider [to set up a virtual env for python3](https://matt-wxw.medium.com/setup
 python3
 ```
 
-- datalad
+### datalad
 
 ```bash
 brew install datalad
 ```
 
-## P2
+## Priority 2
 
+<<<<<<< HEAD
 - FileZilla
 
 [link](https://filezilla-project.org/download.php?show_all=1)
 
 - Xcode compiler 
+=======
+### Xcode compiler 
+>>>>>>> 29bf3bb (add vscode extensions)
 
 https://apps.apple.com/it/app/xcode/id497799835?l=en&mt=12
 
-- git kraken
+### git kraken
 
 ```bash
 brew install --cask gitkraken
 ```
 
-- discord
+### discord
 
 ```bash
 brew install --cask discord
 ```
 
-- googledrive
+### googledrive
 
 ```bash  
 brew install --cask google-drive
 ```
 
-- openVPN Connect
+### openVPN Connect
 
 ```bash  
 brew install --cask openvpn-connect
 ```
 
-- MacsFanControl
+### MacsFanControl
 
 ```bash
 brew install --cask macs-fan-control
 ```
 
-- copyclip
+### copyclip
   
 https://apps.apple.com/it/app/copyclip-clipboard-history/id595191960?l=en&mt=12
 
-- monitor display lite
+### monitor display lite
   
 <https://apps.apple.com/it/app/monitorcontrol-lite/id1595464182?l=en&mt=12>
 
-- docker 
+### docker 
 
 ```bash 
 brew install --cask docker
 ```
 
-- anaconda 
+### anaconda 
 
 ```bash
 brew install --cask anaconda
 ```
 
-- audacity 
+### audacity 
 
 ```bash
 brew install --cask audacity
 ```
 
-- caffeine (maybe not necessary)
+### caffeine (maybe not necessary)
 
 ```bash
 brew install --cask caffeine
 ```
 
-- magnet 
+### magnet 
 
 https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12
 
 
-- logi options 
+### logi options 
 
 https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip
 
-- todoist 
+### todoist 
 
 ```bash
 brew install --cask todoist
 ```
 
-- pomodone 
+### pomodone 
 
 ```bash
 brew install --cask pomodone
 ```
 
-- spotify 
+### spotify 
 
 ```bash
 brew install --cask spotify
 ```
 
-- teams 
+### teams 
 
 ```bash
 brew install --cask microsoft-teams
 ```
 
-- 365 office (installs: Excel, Word, Powerpoint, OneNote, OneDrive)
+### 365 office (installs: Excel, Word, Powerpoint, OneNote, OneDrive)
 
 ```bash
 brew install --cask microsoft-office
 ```
 
-
-- zoom 
+### zoom 
 
 ```bash
 brew install --cask zoom
 ```
 
-- zotero 
+### zotero 
 
 ```bash
 brew install --cask zotero
 ```
 
-- grammarly 
+### grammarly 
 
 ```bash
 brew install --cask grammarly
 ```
 
-- nordvpn 
+### nordvpn 
 
 ```bash 
 brew install --cask nordvpn
 ```
 
-- timerRH 
+### timerRH 
 
 [appstore](https://apps.apple.com/it/app/timer-rh/id929960914?l=en&mt=12)
 
-## P3
+### disk inventory x
 
-- itksnap <http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc>
+```bash
+brew install --cask disk-inventory-x
+```
+
+## Priority 3
+
+### itksnap <http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc>
   
-- freesurfer <https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads>
+### freesurfer <https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads>
   - video tutorial <https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall?action=AttachFile&do=view&target=installFS_demo.mp4>
 
-- fsl 
+### fsl 
 
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
 
-- laynii <https://github.com/layerfMRI/LAYNII>
+### laynii <https://github.com/layerfMRI/LAYNII>
 
-- ants
+### ants
   - precompiled <https://github.com/stnava/ANTs/zipball/master>
   - to compile <https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS>
 
 
-- afni [installation guide](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_macOS_12_Intel.html)
+### afni [installation guide](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_macOS_12_Intel.html)
 
   - this also installs R
 
-- R (if not installed by afni)
+### R (if not installed by afni)
   - via afni... at the moment the latest version is 4.x.x but afni seems to prefer `R-3.6.3`
 
-  - OR
+  ### OR
 
 ```bash
 brew install r
@@ -295,77 +330,77 @@ brew install r
 
 OR for afni at this [link](https://cran-archive.r-project.org/bin/macosx/el-capitan/base/R-3.6.3.nn.pkg)
 
-- Rstudio
+### Rstudio
 
 ```bash
 brew install --cask rstudio
 ```
 
-- matlab (from ...)
+### matlab (from ...)
 
-- Microsoft NTFS Tuxera 
+### Microsoft NTFS Tuxera 
 
 ```bash
 brew install --cask tuxera-ntfs
 ```
 
-- tor-browser
+### tor-browser
 
 ```bash
 brew install --cask tor-browser
 ```
 
-- firefox 
+### firefox 
 
 ```bash
 brew install --cask firefox
 ```
 
-- whatsapp 
+### whatsapp 
 
 ```bash
 brew install --cask whatsapp
 ```
 
-- telegram
+### telegram
 
 ```bash
 brew install --cask telegram
 ```
 
-- spyder 
+### spyder 
 
 ```bash
 brew install --cask spyder
 ```
 
-- inkscape 
+### inkscape 
 
 ```bash
 brew install --cask inkscape
 ```
 
-- gimp 
+### gimp 
 
 ```bash
 brew install --cask gimp
 ```
 
-- fig 
+### fig 
 
 ```bash
 brew install --cask fig
 ```
 
-- vlc 
+### vlc 
 
 ```bash
 brew install --cask vlc
 ```
 
-- trashme (from ...)
+### trashme (from ...)
 
-- printers at uclouvain
+### printers at uclouvain
 
 ## P4
 
@@ -375,25 +410,25 @@ brew install --cask vlc
 brew install --cask mactex
 ```
 
-- octave 
+### octave 
 
 ```bash
 brew install octave
 ```
 
-- psychopy 
+### psychopy 
 
 ```bash
 brew install --cask psychopy
 ```
 
-- ibettercharge 
+### ibettercharge 
 
 ```bash 
 brew install --cask ibettercharge
 ```
 
-- visrtual box
+### visrtual box
 
 ```bash
 brew install --cask virtualbox
