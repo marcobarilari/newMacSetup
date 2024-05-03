@@ -25,6 +25,12 @@ check this:
 
 ## Priority 1
 
+### oh-my-zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### homebrew
 
 ```bash
@@ -80,12 +86,6 @@ brew install --cask xquartz
 ```
 
 :bangbang: better to `sudo reboot` now :bangbang:
-
-### oh-my-zsh
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
 
 ### VIM
 
