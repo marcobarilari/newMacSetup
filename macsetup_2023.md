@@ -278,7 +278,7 @@ brew install --cask zotero
 ### grammarly 
 
 ```bash
-brew install --cask grammarly
+brew install --cask grammarly-desktop
 ```
 
 ### nordvpn 
