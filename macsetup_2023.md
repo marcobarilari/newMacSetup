@@ -8,28 +8,26 @@ check this:
 - [Erase your Mac and reset it to factory settings](https://support.apple.com/en-us/HT212749)
 - [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
 
-## BACKUP from `HD_HOME`
+## BACKUP to a HD
 
-- startup matlab
+- startup matlab file `startup.m`
 - mendeley
-- zotero
-- photos
-- onetab
-- bear
-- logitech mouse
-- dock composition
-- finder tricks (3 fingers, path at bottom, drag and drop)
-  - 3 finger <https://support.apple.com/en-us/HT204609>
-  - path at bottom <https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window>.
+- zotero (not necessary anymore since I pay for extra space)
+- photos (not necessary since it is synced via iCloud)
+- onetab 
+- logitech mouse (screenshots of configurations)
+- dock composition (screenshot)
 - github folders
 
-## Priority 1
+## INSTALLATION Priority 1
 
 ### oh-my-zsh
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+then close and reopen the terminal
 
 ### homebrew
 
@@ -41,12 +39,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ```bash
 brew install htop
-```
-
-### tree
-
-```
-brew install tree
 ```
 
 ### chrome
@@ -148,7 +140,20 @@ python3
 brew install datalad
 ```
 
+### setups
+
+#### finder
+
+  - [3 finger drag and drop](https://support.apple.com/en-us/HT204609)
+  - [path at bottom](https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window)
+
 ## Priority 2
+
+### tree
+
+```
+brew install tree
+```
 
 <<<<<<< HEAD
 - FileZilla
