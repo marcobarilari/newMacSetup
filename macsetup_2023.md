@@ -231,7 +231,7 @@ https://apps.apple.com/it/app/magnet/id441258766?l=en&mt=12
 
 ### logi options 
 
-https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.zip
+https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip
 
 ### todoist 
 
