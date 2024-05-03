@@ -55,6 +55,18 @@ brew install tree
 brew install --cask google-chrome
 ```
 
+### xcode
+
+```bash
+xcode-select --install
+```
+
+### xquartz
+
+```bash
+brew install --cask xquartz
+```
+
 ### git
 
 ```bash
@@ -71,18 +83,6 @@ set up git/github (config + ssh)
 
 ```bash
 mkdir ~/GitHub && cd ~/GitHub && git clone https://github.com/marcobarilari/newMacSetup.git
-```
-
-### xcode
-
-```bash
-xcode-select --install
-```
-
-### xquartz
-
-```bash
-brew install --cask xquartz
 ```
 
 :bangbang: better to `sudo reboot` now :bangbang:
