@@ -1,12 +1,89 @@
-# Set up oif a new mac step by step
+# Set up of a new mac step by step
 
-## ERASE
-
-check this:
-
-- [What to do before you sell, give away or trade in your Mac](https://support.apple.com/en-au/HT201065)
-- [Erase your Mac and reset it to factory settings](https://support.apple.com/en-us/HT212749)
-- [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
+- [Set up of a new mac step by step](#set-up-of-a-new-mac-step-by-step)
+  - [BACKUP to a HD](#backup-to-a-hd)
+  - [ERASE](#erase)
+  - [INSTALL Priority 1](#install-priority-1)
+    - [oh-my-zsh](#oh-my-zsh)
+    - [homebrew](#homebrew)
+    - [htop](#htop)
+    - [chrome](#chrome)
+    - [xcode](#xcode)
+    - [xquartz](#xquartz)
+    - [git](#git)
+    - [get this repo locally if not copied from the previous mac `github` folder ;)](#get-this-repo-locally-if-not-copied-from-the-previous-mac-github-folder-)
+    - [VScode (check set up below)](#vscode-check-set-up-below)
+    - [dropbox](#dropbox)
+    - [python](#python)
+    - [datalad](#datalad)
+    - [UCLouvain openVPN](#uclouvain-openvpn)
+    - [FileZilla](#filezilla)
+    - [Xcode compiler](#xcode-compiler)
+    - [setups](#setups)
+      - [finder](#finder)
+      - [ssh](#ssh)
+      - [git/github/gin](#gitgithubgin)
+      - [](#)
+  - [Priority 2](#priority-2)
+    - [tree](#tree)
+    - [git kraken](#git-kraken)
+    - [discord](#discord)
+    - [googledrive](#googledrive)
+    - [openVPN Connect](#openvpn-connect)
+    - [MacsFanControl](#macsfancontrol)
+    - [copyclip](#copyclip)
+    - [monitor display lite](#monitor-display-lite)
+    - [docker](#docker)
+    - [anaconda](#anaconda)
+    - [audacity](#audacity)
+    - [caffeine (maybe not necessary)](#caffeine-maybe-not-necessary)
+    - [magnet](#magnet)
+    - [logi options](#logi-options)
+    - [todoist](#todoist)
+    - [pomodone](#pomodone)
+    - [spotify](#spotify)
+    - [teams](#teams)
+    - [365 office (installs: Excel, Word, Powerpoint, OneNote, OneDrive)](#365-office-installs-excel-word-powerpoint-onenote-onedrive)
+    - [zoom](#zoom)
+    - [zotero](#zotero)
+    - [grammarly](#grammarly)
+    - [nordvpn](#nordvpn)
+    - [timerRH](#timerrh)
+    - [disk inventory x](#disk-inventory-x)
+  - [Priority 3](#priority-3)
+    - [VIM](#vim)
+    - [itksnap http://www.itksnap.org/download/snap/register.php?link=13393\&root=nitrc](#itksnap-httpwwwitksnaporgdownloadsnapregisterphplink13393rootnitrc)
+    - [freesurfer https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads](#freesurfer-httpssurfernmrmghharvardedufswikirel7downloads)
+    - [fsl](#fsl)
+    - [laynii https://github.com/layerfMRI/LAYNII](#laynii-httpsgithubcomlayerfmrilaynii)
+    - [ants](#ants)
+    - [afni installation guide](#afni-installation-guide)
+    - [R (if not installed by afni)](#r-if-not-installed-by-afni)
+    - [OR](#or)
+    - [Rstudio](#rstudio)
+    - [matlab (from ...)](#matlab-from-)
+    - [Microsoft NTFS Tuxera](#microsoft-ntfs-tuxera)
+    - [tor-browser](#tor-browser)
+    - [firefox](#firefox)
+    - [whatsapp](#whatsapp)
+    - [telegram](#telegram)
+    - [spyder](#spyder)
+    - [inkscape](#inkscape)
+    - [gimp](#gimp)
+    - [fig](#fig)
+    - [vlc](#vlc)
+    - [trashme (from ...)](#trashme-from-)
+    - [printers at uclouvain](#printers-at-uclouvain)
+  - [P4](#p4)
+    - [octave](#octave)
+    - [psychopy](#psychopy)
+    - [ibettercharge](#ibettercharge)
+    - [visrtual box](#visrtual-box)
+  - [In-App setup](#in-app-setup)
+    - [VScode](#vscode)
+      - [Extensions](#extensions)
+    - [matlab](#matlab)
+  - [EXTRA](#extra)
 
 ## BACKUP to a HD
 
@@ -18,8 +95,21 @@ check this:
 - logitech mouse (screenshots of configurations)
 - dock composition (screenshot)
 - github folders
+- `~/.ssh`
+- `~/.zshrc`
+- stickyes contents
+- music folder 
+- download folder
+  
+## ERASE
 
-## INSTALLATION Priority 1
+check this:
+
+- [What to do before you sell, give away or trade in your Mac](https://support.apple.com/en-au/HT201065)
+- [Erase your Mac and reset it to factory settings](https://support.apple.com/en-us/HT212749)
+- [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
+
+## INSTALL Priority 1
 
 ### oh-my-zsh
 
@@ -67,11 +157,7 @@ git --version
 brew install git
 ```
 
-set up git/github (config + ssh)
-
-
-
-### get this repo locally ;)
+### get this repo locally if not copied from the previous mac `github` folder ;)
 
 ```bash
 mkdir ~/GitHub && cd ~/GitHub && git clone https://github.com/marcobarilari/newMacSetup.git
@@ -79,45 +165,15 @@ mkdir ~/GitHub && cd ~/GitHub && git clone https://github.com/marcobarilari/newM
 
 :bangbang: better to `sudo reboot` now :bangbang:
 
-### VIM
-
-```bash
-brew install vim
-```
-
 ### VScode (check set up below)
 
 ```bash
 brew install --cask visual-studio-code
 ```
 
+check below in `EXTRA` a list of extensions to install, to install them automatically you only need to sign in.
+
 - Set the schortcut 'option' + 'cmd' + 'enter' to run the selected/line at cursos code in the terminal see [here](https://stackoverflow.com/questions/49085609/visual-studio-code-shortcut-run-command-in-terminal)
-
-- Extension to install:
-  - Auto-Open Markdown Preview
-  - Color Highlight
-  - Excel Viewer
-  - Git Graph
-  - GitHub Copilot
-  - GitHub Copilot C
-  - Git Lens
-  - json
-  - Jupiter
-  - Markdown All in One
-  - MATLAB
-  - NeuroViewer
-  - Pretier - Code formatter
-  - Prettify JSON
-  - Pylance
-  - Python
-  - Python Debugger
-  - R
-  - R Markdown All in One
-  - Remote SSH
-  - Sublime VSCode Theme
-  - Power Mode
-  - Vim
-
 
 ### dropbox
 
@@ -140,12 +196,40 @@ python3
 brew install datalad
 ```
 
+### UCLouvain openVPN
+
+Check [here](https://uclouvain.atlassian.net/servicedesk/customer/article/564985915)
+
+### FileZilla
+
+[link](https://filezilla-project.org/download.php?show_all=1)
+
+### Xcode compiler 
+
+https://apps.apple.com/it/app/xcode/id497799835?l=en&mt=12
+
 ### setups
 
 #### finder
 
   - [3 finger drag and drop](https://support.apple.com/en-us/HT204609)
   - [path at bottom](https://support.apple.com/en-au/guide/mac-help/mchlp1774/mac#:~:text=On%20your%20Mac%2C%20click%20the,bottom%20of%20the%20Finder%20window)
+
+#### ssh
+
+run this to create a new `.ssh` directory and add ssh addresses to it
+
+```bash
+ssh-keygen
+```
+
+#### git/github/gin
+
+- https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git
+
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+#### 
 
 ## Priority 2
 
@@ -154,18 +238,6 @@ brew install datalad
 ```
 brew install tree
 ```
-
-<<<<<<< HEAD
-- FileZilla
-
-[link](https://filezilla-project.org/download.php?show_all=1)
-
-- Xcode compiler 
-=======
-### Xcode compiler 
->>>>>>> 29bf3bb (add vscode extensions)
-
-https://apps.apple.com/it/app/xcode/id497799835?l=en&mt=12
 
 ### git kraken
 
@@ -304,6 +376,14 @@ brew install --cask disk-inventory-x
 
 ## Priority 3
 
+
+### VIM
+
+```bash
+brew install vim
+```
+
+
 ### itksnap <http://www.itksnap.org/download/snap/register.php?link=13393&root=nitrc>
   
 ### freesurfer <https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads>
@@ -342,6 +422,8 @@ brew install --cask rstudio
 ```
 
 ### matlab (from ...)
+
+- set up bash fucntion (see [here](https://github.com/cpp-lln-lab/labMONSTER?tab=readme-ov-file#matlab-2018a))
 
 ### Microsoft NTFS Tuxera 
 
@@ -476,3 +558,30 @@ fraridge
 libsvm_325
 PTB
 tapas
+
+## EXTRA
+
+- Extension to install:
+  - Auto-Open Markdown Preview
+  - Color Highlight
+  - Excel Viewer
+  - Git Graph
+  - GitHub Copilot
+  - GitHub Copilot C
+  - Git Lens
+  - json
+  - Jupiter
+  - Markdown All in One
+  - MATLAB
+  - NeuroViewer
+  - Pretier - Code formatter
+  - Prettify JSON
+  - Pylance
+  - Python
+  - Python Debugger
+  - R
+  - R Markdown All in One
+  - Remote SSH
+  - Sublime VSCode Theme
+  - Power Mode
+  - Vim
