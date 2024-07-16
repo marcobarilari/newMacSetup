@@ -554,6 +554,18 @@ brew install --cask virtualbox
 bspmview
 cosmomvpa
 spm12
+
+after installation:
+
+```bash
+cd spm-path
+find . -name "*.mexmaci64" -exec xattr -d com.apple.quarantine {} \;
+
+#if it does not work try this
+sudo xattr -r -d com.apple.quarantine SPM_PATH
+sudo find SPM_PATH -name "*.mexmaci64" -exec spctl --add {} \;
+```
+
 fraridge
 libsvm_325
 PTB
