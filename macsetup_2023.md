@@ -4,6 +4,7 @@
   - [BACKUP to a HD](#backup-to-a-hd)
   - [ERASE](#erase)
   - [INSTALL Priority 1](#install-priority-1)
+    - [iCloud](#icloud)
     - [oh-my-zsh](#oh-my-zsh)
     - [homebrew](#homebrew)
     - [htop](#htop)
@@ -87,19 +88,19 @@
 
 ## BACKUP to a HD
 
-- startup matlab file `startup.m`
-- mendeley
-- zotero (not necessary anymore since I pay for extra space)
-- photos (not necessary since it is synced via iCloud)
-- onetab 
-- logitech mouse (screenshots of configurations)
-- dock composition (screenshot)
-- github folders
-- `~/.ssh`
-- `~/.zshrc`
-- stickyes contents
-- music folder 
-- download folder
+- [ ] startup matlab file `startup.m`
+- [ ] mendeley
+- [ ] zotero (not necessary anymore since I pay for extra space)
+- [ ] photos (not necessary since it is synced via iCloud)
+- [ ] onetab 
+- [ ] logitech mouse (screenshots of configurations)
+- [ ] dock composition (screenshot)
+- [ ] github folders
+- [ ] `~/.ssh`
+- [ ] `~/.zshrc`
+- [ ] stickyes contents
+- [ ] music folder 
+- [ ] download folder
   
 ## ERASE
 
@@ -110,6 +111,10 @@ check this:
 - [Reinstall macOS](https://support.apple.com/en-au/guide/mac-help/mchlp1599/13.0/mac/13.0)
 
 ## INSTALL Priority 1
+
+### iCloud
+
+sign in, duh
 
 ### oh-my-zsh
 
