@@ -30,7 +30,6 @@
     - [git kraken](#git-kraken)
     - [discord](#discord)
     - [googledrive](#googledrive)
-    - [openVPN Connect](#openvpn-connect)
     - [MacsFanControl](#macsfancontrol)
     - [copyclip](#copyclip)
     - [monitor display lite](#monitor-display-lite)
@@ -260,12 +259,6 @@ brew install --cask discord
 
 ```bash  
 brew install --cask google-drive
-```
-
-### openVPN Connect
-
-```bash  
-brew install --cask openvpn-connect
 ```
 
 ### MacsFanControl
