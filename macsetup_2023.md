@@ -153,6 +153,14 @@ xcode-select --install
 brew install --cask xquartz
 ```
 
+to test run: 
+
+```bash
+/opt/X11/bin/xclock
+```
+
+A clock should appear on your desktop. If it does not work, check that it is turned on in the logins items at System Settings --> General --> login items, (if not) --> select XQuartz, then reboot the MacBook
+
 ### git
 
 ```bash
