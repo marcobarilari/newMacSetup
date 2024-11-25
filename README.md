@@ -1,7 +1,7 @@
 # MacSetup
 Collection of info, app and scripts to automate the setup of my mac pc in a new or wiped machine
 
-:bangbang: this set up is oriented for a mac with intel chip
+[macsetup_2023](macsetup_2023.md) works for both intel and silicon chips if installation is via homebrew, if via links maybe double check
 
 ## Step 1 - Clean install of the chosen MacOs
 
